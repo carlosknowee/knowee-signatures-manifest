@@ -19,9 +19,6 @@
     <AppDomains>
         <AppDomain>https://knowee-signatures.netlify.app</AppDomain>
     </AppDomains>
-    <Hosts>
-        <Host Name="Mailbox"/>
-    </Hosts>
     <Requirements>
         <Sets>
             <Set Name="Mailbox" MinVersion="1.1"/>
