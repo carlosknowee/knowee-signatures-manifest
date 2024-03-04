@@ -36,6 +36,9 @@
     <Rule xsi:type="RuleCollection" Mode="Or">
         <Rule xsi:type="ItemIs" ItemType="Message" FormType="Read"/>
     </Rule>
+    <Hosts>
+        <Host xsi:type="MailHost"/>
+    </Hosts>
     <VersionOverrides xmlns="http://schemas.microsoft.com/office/mailappversionoverrides"
                       xsi:type="VersionOverridesV1_0">
         <Hosts>
